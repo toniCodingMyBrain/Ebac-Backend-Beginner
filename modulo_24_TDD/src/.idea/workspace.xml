@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07469427-406f-4af6-9479-cab3798ecc39" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../mod15/ExemplosMod15/src/br/com/rpires/factory/CorolaCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod15/ExemplosMod15/src/br/com/rpires/factory/CorolaCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod15/ExemplosMod15/src/br/com/rpires/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod15/ExemplosMod15/src/br/com/rpires/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod16/ExemplosMod16/src/br/com/rpires/templatemethod/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod16/ExemplosMod16/src/br/com/rpires/templatemethod/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/ClienteMapDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/ClienteMapDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/IClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/IClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/IProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/IProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/ProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/generic/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/generic/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/generic/IGenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/cadastro/domain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/generic/ExemplosJavaGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod17/ExemplosMod17/src/generic/ExemplosJavaGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod18/ExemplosMod18/src/br/com/rpires/anotacao/ClasseComAnotacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod18/ExemplosMod18/src/br/com/rpires/anotacao/ClasseComAnotacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod18/ExemplosMod18/src/br/com/rpires/exceptions/APPCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod18/ExemplosMod18/src/br/com/rpires/exceptions/APPCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/AppReflections.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/App2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/SingletonMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/SingletonMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/dao/generic/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/dao/generic/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/fabrica/ProdutoFabrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod19/ExemplosMod19/src/br/com/rpires/reflections/anotacao/cadastro/fabrica/ProdutoFabrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mod20/src/br/com/rpires/lambdas/TesteLambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mod20/src/br/com/rpires/lambdas/TesteLambdas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2xguS6gnmeb0I1jvYNEPlpsTGeg" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07469427-406f-4af6-9479-cab3798ecc39" name="Changes" comment="" />
+      <created>1748372036790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748372036790</updated>
+    </task>
+    <servers />
+  </component>
+</project>
