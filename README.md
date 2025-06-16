@@ -1,5 +1,4 @@
-# Olá, bem vindo ao repositório de exercícios introdutórios de 
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="40" height="40" />
+# Olá, bem vindo ao repositório de exercícios introdutórios de Java :grin:
            
 
 Ebac-Backend-Beginner
