@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8585314-af91-4aca-985e-36b0a910d0c7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Exception" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;toniCodingMyBrain&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/toni500madmax/Ebac_Backend_Java_intros.git&quot;,
+    &quot;accountId&quot;: &quot;f4a55361-4d99-492b-9203-a62b4b1ee007&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2yKE697MO0surEO9xpBKiEbw82x" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ClienteDAOTest.atualizarCodigoTest.executor": "Run",
+    "JUnit.ClienteDAOTest.atualizarTest.executor": "Run",
+    "JUnit.ClienteDAOTest.buscarTodos.executor": "Run",
+    "JUnit.ClienteDAOTest.cadastrarTest.executor": "Run",
+    "JUnit.ClienteDAOTest.excluirTest.executor": "Run",
+    "JUnit.ClienteDAOTest.executor": "Coverage",
+    "JUnit.ProdutoDAOTest.adicionarProdutoTest.executor": "Run",
+    "JUnit.ProdutoDAOTest.atualizarProdutoTest.executor": "Run",
+    "JUnit.ProdutoDAOTest.buscarProdutoPorIdTest.executor": "Run",
+    "JUnit.ProdutoDAOTest.buscarTodosProdutos.executor": "Run",
+    "JUnit.ProdutoDAOTest.removerProdutoTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "dev.sweep.assistant.data.RecentlyEditedFiles": "test\\br\\com\\tom\\dao\\ProdutoDAOTest.java;src\\br\\com\\tom\\dao\\IProdutoDAO.java;src\\br\\com\\tom\\dao\\ProdutoDAO.java;src\\br\\com\\tom\\exceptions\\IdNotFoundException.java;src\\br\\com\\tom\\dao\\generic\\jdbc\\ConnectionFactory.java;test\\br\\com\\tom\\dao\\ClienteDAOTest.java;src\\br\\com\\tom\\domain\\Produto.java;src\\br\\com\\tom\\dao\\builder\\ProdutoSQLBuilder.java;src\\br\\com\\tom\\dao\\ClienteDAO.java;src\\br\\com\\tom\\domain\\Cliente.java",
+    "dev.sweep.assistant.data.RecentlyUsedFiles": "test\\br\\com\\tom\\dao\\ClienteDAOTest.java;test\\br\\com\\tom\\dao\\ProdutoDAOTest.java;src\\br\\com\\tom\\dao\\ProdutoDAO.java;src\\br\\com\\tom\\dao\\IProdutoDAO.java;src\\br\\com\\tom\\exceptions\\IdNotFoundException.java;src\\br\\com\\tom\\dao\\ClienteDAO.java;src\\br\\com\\tom\\dao\\builder\\ProdutoSQLBuilder.java;src\\br\\com\\tom\\dao\\generic\\jdbc\\ConnectionFactory.java;src\\br\\com\\tom\\domain\\Produto.java;src\\br\\com\\tom\\dao\\IClienteDAO.java",
+    "git-widget-placeholder": "modulo-29",
+    "last_opened_file_path": "C:/Users/Antonio/Documents/Curso_EBAC_FullStack_Java/Back-End_com-Java/exercicios/modulo-29_JDBC",
+    "onboarding.tips.debug.path": "C:/Users/Antonio/Documents/Curso_EBAC_FullStack_Java/Back-End_com-Java/exercicios/modulo-28_JDBC/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "kotlinNotebook",
+    "sweep.chatMode": "Agent"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.tom.dao.generic.jdbc" />
+      <recent name="br.com.tom.dao" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.tom.dao" />
+      <recent name="br.com.tom.dao.generic.jdbc" />
+      <recent name="br.com.tom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProdutoDAOTest.adicionarProdutoTest">
+    <configuration name="ProdutoDAOTest.adicionarProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="modulo-29_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.tom.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.tom.dao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.tom.dao.ProdutoDAOTest" />
+      <option name="METHOD_NAME" value="adicionarProdutoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoDAOTest.atualizarProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="modulo-29_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.tom.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.tom.dao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.tom.dao.ProdutoDAOTest" />
+      <option name="METHOD_NAME" value="atualizarProdutoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoDAOTest.buscarProdutoPorIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="modulo-29_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.tom.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.tom.dao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.tom.dao.ProdutoDAOTest" />
+      <option name="METHOD_NAME" value="buscarProdutoPorIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoDAOTest.buscarTodosProdutos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="modulo-29_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.tom.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.tom.dao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.tom.dao.ProdutoDAOTest" />
+      <option name="METHOD_NAME" value="buscarTodosProdutos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoDAOTest.removerProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="modulo-29_JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.tom.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.tom.dao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.tom.dao.ProdutoDAOTest" />
+      <option name="METHOD_NAME" value="removerProdutoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProdutoDAOTest.adicionarProdutoTest" />
+        <item itemvalue="JUnit.ProdutoDAOTest.removerProdutoTest" />
+        <item itemvalue="JUnit.ProdutoDAOTest.buscarProdutoPorIdTest" />
+        <item itemvalue="JUnit.ProdutoDAOTest.atualizarProdutoTest" />
+        <item itemvalue="JUnit.ProdutoDAOTest.buscarTodosProdutos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8585314-af91-4aca-985e-36b0a910d0c7" name="Changes" comment="" />
+      <created>1749574688900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749574688900</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/modulo_28_JDBC$ClienteDAOTest.ic" NAME="ClienteDAOTest Coverage Results" MODIFIED="1749741337549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>br.com.tom.dao.*</FILTER>
+    </SUITE>
+  </component>
+</project>
