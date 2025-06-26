@@ -33,6 +33,9 @@ public class Produto implements Persistente {
 	@ColunaTabela(dbName = "valor", setJavaName = "setValor")
 	private BigDecimal valor;
 
+	@ColunaTabela(dbName = "desconto", setJavaName = "setDesconto")
+	private BigDecimal desconto;
+
 	public String getCodigo() {
 		return codigo;
 	}
@@ -63,6 +66,14 @@ public class Produto implements Persistente {
 
 	public void setValor(BigDecimal valor) {
 		this.valor = valor;
+	}
+
+	public void setDesconto(BigDecimal desconto){
+		this.desconto = desconto;
+	}
+
+	public BigDecimal getDesconto(){
+		return desconto;
 	}
 
 	public Long getId() {

@@ -7,6 +7,7 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Collection;
 
 import org.junit.After;
@@ -52,6 +53,7 @@ public class ProdutoDAOTest {
 		produto.setDescricao("Produto 1");
 		produto.setNome("Produto 1");
 		produto.setValor(BigDecimal.TEN);
+		produto.setDesconto(BigDecimal.TEN.divide(new BigDecimal("100"), 2, RoundingMode.HALF_UP));
 		produtoDao.cadastrar(produto);
 		return produto;
 	}
