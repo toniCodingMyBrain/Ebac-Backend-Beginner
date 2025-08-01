@@ -1,0 +1,40 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+			 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+                                 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+			 version="2.2">
+
+	<persistence-unit name="exemplo-mongodb" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ogm.jpa.HibernateOgmPersistence</provider>
+
+		<class>com.tom.exemploMongodb.domain.Curso</class>
+		<class>com.tom.exemploMongodb.domain.Matricula</class>
+
+		<properties>
+			<!-- Provedor NoSQL: MongoDB -->
+			<property name="hibernate.ogm.datastore.provider" value="mongodb"/>
+
+			<!-- Endereço do MongoDB -->
+			<property name="hibernate.ogm.datastore.host" value="localhost"/>
+			<property name="hibernate.ogm.datastore.port" value="27017"/>
+
+			<!-- Nome do banco de dados -->
+			<property name="hibernate.ogm.datastore.database" value="ebac_mongodb01"/>
+
+			<!-- Banco usado para autenticação -->
+			<property name="hibernate.ogm.mongodb.authentication_database" value="admin"/>
+
+			<!-- Se estiver usando autenticação -->
+			<property name="hibernate.ogm.datastore.username" value="usuario_teste"/>
+			<property name="hibernate.ogm.datastore.password" value="teste123"/>
+
+			<!-- Cria a database se não existir -->
+			<property name="hibernate.ogm.datastore.create_database" value="true"/>
+
+
+			<!-- Habilita o log das queries (opcional) -->
+			<property name="hibernate.show_sql" value="true"/>
+			<property name="hibernate.format_sql" value="true"/>
+		</properties>
+	</persistence-unit>
+</persistence>
