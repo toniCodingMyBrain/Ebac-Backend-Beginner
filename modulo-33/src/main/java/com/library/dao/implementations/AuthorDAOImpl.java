@@ -1,7 +1,7 @@
 package com.library.dao.implementations;
 
 import com.library.dao.interfaces.IAuthorDAO;
-import com.library.domain.models.Author;
+import com.library.domain.Author;
 
 import java.util.List;
 

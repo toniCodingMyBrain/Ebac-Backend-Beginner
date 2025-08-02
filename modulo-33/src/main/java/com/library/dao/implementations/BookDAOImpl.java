@@ -1,7 +1,7 @@
 package com.library.dao.implementations;
 
 import com.library.dao.interfaces.IBookDAO;
-import com.library.domain.models.Book;
+import com.library.domain.Book;
 
 import java.util.List;
 
