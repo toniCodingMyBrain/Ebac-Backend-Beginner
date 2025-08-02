@@ -1,8 +1,7 @@
-package com.library.domain.models;
+package com.library.domain;
 
-import com.library.domain.enums.Category;
 import jakarta.persistence.*;
-
+import com.library.domain.enums.Category;
 import java.math.BigInteger;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -30,9 +29,9 @@ public class Book {
     @JoinColumn(
             name = "id_publisher_fk",
             foreignKey = @ForeignKey(name = "fk_publisher_book"),
-            referencedColumnName = "id", nullable = false
+            referencedColumnName = "id"
     )
-    private String publisher;
+    private Publisher publisher;
 
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinTable(
@@ -94,11 +93,11 @@ public class Book {
         this.authors = authors;
     }
 
-    public String getPublisher() {
+    public Publisher getPublisher() {
         return publisher;
     }
 
-    public void setPublisher(String publisher) {
+    public void setPublisher(Publisher publisher) {
         this.publisher = publisher;
     }
 }

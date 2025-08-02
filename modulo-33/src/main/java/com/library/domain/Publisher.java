@@ -1,4 +1,4 @@
-package com.library.domain.models;
+package com.library.domain;
 
 import jakarta.persistence.*;
 
@@ -18,7 +18,7 @@ public class Publisher {
     @Column(name = "country", nullable = false, length = 50)
     private String country;
 
-    @OneToMany(mappedBy = "publisher")
+    @OneToMany(mappedBy = "publisher", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Book> books = new ArrayList<>();
 
     public Long getId() {

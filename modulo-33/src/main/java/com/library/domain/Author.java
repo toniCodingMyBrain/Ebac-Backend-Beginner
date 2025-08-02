@@ -1,4 +1,4 @@
-package com.library.domain.models;
+package com.library.domain;
 
 import jakarta.persistence.*;
 
@@ -18,7 +18,7 @@ public class Author {
     @Column(name = "author_code", length = 10, nullable = false, unique = true)
     private String codigo;
 
-    @ManyToMany(mappedBy = "authors", fetch = FetchType.LAZY)
+    @ManyToMany(mappedBy = "authors", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Book> book = new ArrayList<>();
 
     public Long getId() {

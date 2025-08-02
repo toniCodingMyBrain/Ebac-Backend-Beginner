@@ -1,6 +1,6 @@
 package com.library.dao.interfaces;
 
-import com.library.domain.models.Book;
+import com.library.domain.Book;
 
 import java.util.List;
 
