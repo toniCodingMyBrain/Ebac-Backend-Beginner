@@ -25,15 +25,16 @@ public class Book {
     @Column(name = "published_at", nullable = false)
     private LocalDate published_at;
 
-    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(
             name = "id_publisher_fk",
             foreignKey = @ForeignKey(name = "fk_publisher_book"),
-            referencedColumnName = "id"
+            referencedColumnName = "id",
+            nullable = true
     )
     private Publisher publisher;
 
-    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "books_authors",
             joinColumns = @JoinColumn(name = "id_book"),

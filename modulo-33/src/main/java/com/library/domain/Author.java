@@ -18,8 +18,8 @@ public class Author {
     @Column(name = "author_code", length = 10, nullable = false, unique = true)
     private String codigo;
 
-    @ManyToMany(mappedBy = "authors", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<Book> book = new ArrayList<>();
+    @ManyToMany(mappedBy = "authors", fetch = FetchType.LAZY)
+    private List<Book> books = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -45,11 +45,11 @@ public class Author {
         this.codigo = codigo;
     }
 
-    public List<Book> getBook() {
-        return book;
+    public List<Book> getBooks() {
+        return books;
     }
 
-    public void setBook(List<Book> book) {
-        this.book = book;
+    public void setBooks(List<Book> books) {
+        this.books = books;
     }
 }

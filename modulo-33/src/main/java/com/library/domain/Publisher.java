@@ -18,7 +18,7 @@ public class Publisher {
     @Column(name = "country", nullable = false, length = 50)
     private String country;
 
-    @OneToMany(mappedBy = "publisher", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "publisher", fetch = FetchType.LAZY)
     private List<Book> books = new ArrayList<>();
 
     public Long getId() {

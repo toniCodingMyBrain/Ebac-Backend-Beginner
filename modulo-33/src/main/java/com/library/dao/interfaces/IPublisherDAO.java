@@ -6,8 +6,12 @@ import java.util.List;
 
 public interface IPublisherDAO {
     void savePublisher(Publisher publisher);
-    void updatePublisher(Publisher publisher);
+
+    void mergePublisher(Publisher publisher);
+
     public List<Publisher> searchAllPublishers();
+
     public Publisher searchPublisherById(Long id);
+
     void deletePublisherById(Long id);
 }

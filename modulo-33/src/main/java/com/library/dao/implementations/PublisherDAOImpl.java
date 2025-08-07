@@ -4,10 +4,7 @@ import com.library.dao.interfaces.IPublisherDAO;
 import com.library.domain.Book;
 import com.library.domain.Publisher;
 import com.library.exceptions.InvalidParameterException;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
-import jakarta.persistence.Persistence;
+import jakarta.persistence.*;
 
 import java.util.List;
 
@@ -24,20 +21,25 @@ public class PublisherDAOImpl implements IPublisherDAO {
     }
 
     @Override
-    public void updatePublisher(Publisher publisher) {
+    public void mergePublisher(Publisher publisher) {
+        entityManager.merge(publisher);
     }
 
     @Override
     public List<Publisher> searchAllPublishers() {
-        return List.of();
+        String sql_search = "SELECT p FROM Publisher p";
+        TypedQuery<Publisher> query = entityManager.createQuery(sql_search, Publisher.class);
+        return query.getResultList();
     }
 
     @Override
     public Publisher searchPublisherById(Long id) {
-        return null;
+        return entityManager.find(Publisher.class, id);
     }
 
     @Override
     public void deletePublisherById(Long id) {
+        Publisher publisher = this.searchPublisherById(id);
+        entityManager.remove(publisher);
     }
 }
