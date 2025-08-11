@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+                                 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+
+    <persistence-unit name="ExemploJPA" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Provider atualizado -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!-- Suas entidades -->
+        <class>br.com.rpires.domain.jpa.Cliente</class>
+        <!--
+        <class>br.com.rpires.domain.Pessoa</class>
+        <class>br.com.rpires.domain.Endereco</class>
+        <class>br.com.rpires.domain.Curso</class>
+        <class>br.com.rpires.domain.Matricula</class>
+        <class>br.com.rpires.domain.Empregado</class>
+        <class>br.com.rpires.domain.Projeto</class>
+        -->
+
+        <properties>
+            <!-- Configurações de conexão -->
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:15432/vendas_online"/>
+            <property name="javax.persistence.jdbc.user" value="postgres"/>
+            <property name="javax.persistence.jdbc.password" value="admin"/>
+
+            <!-- Dialeto -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+
+            <!-- Estratégia de criação/atualização do schema -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+
+            <!-- Mostrar SQL no console -->
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+
+            <!-- Para Hibernate 6+, melhora a detecção de metadados -->
+            <property name="hibernate.boot.allow_jdbc_metadata_access" value="true"/>
+        </properties>
+
+    </persistence-unit>
+
+</persistence>
